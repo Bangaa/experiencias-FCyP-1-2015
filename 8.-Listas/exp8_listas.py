@@ -1,3 +1,4 @@
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
 # AUTOR: Coordinación de Fundamentos de Computación y Programación
 # FECHA: Segundo Semestre de 2013
