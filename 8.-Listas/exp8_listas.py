@@ -38,7 +38,6 @@ def elevarAlCubo(lista):
 # Entrada: Una lista
 # Salida: Nada. Solo invierte la lista
 def invertirLista(lista):
-    listaAux = []
     i = 0
     while i < len(lista)/2:
         piv = lista[i]
