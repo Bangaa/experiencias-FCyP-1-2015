@@ -13,7 +13,7 @@
 
     # IMPORTACIÓN DE FUNCIONES
 # Desde el módulo math importo la función para elevar al cubo
-from math import pow
+# from math import pow (?)
 
 
     # DEFINICIÓN DE FUNCIONES
