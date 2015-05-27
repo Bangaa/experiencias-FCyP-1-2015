@@ -5,7 +5,6 @@
 # Dice si un numero es primo o no
 #
 # @param num    Es el numero que se verifica
-#
 # @return True si es primo; False en caso contrario
 def esPrimo(num):
     lim = num
@@ -28,7 +27,6 @@ def esPrimo(num):
 #
 # @param x  Primer numero
 # @param y  Segundo numero
-#
 # @return La cantidad de numeros primos entre x e y
 def entregarPrimosEntre(x, y):
     cuantos = 0
@@ -51,7 +49,7 @@ def entregarPrimosEntre(x, y):
 inicial = input("Dime un numero  : ")
 while inicial < 1:
     print "\nEntrada erronea"
-    inicial = input("Dime un numer  : ")
+    inicial = input("Dime un numero  : ")
 
 final = input("Dime otro numero: ")
 while final < 1:
@@ -59,6 +57,6 @@ while final < 1:
     final = input("Dime otro numero: ")
 
 
-num = entregarPrimosEntre(inicial, final)
+cuantos = entregarPrimosEntre(inicial, final)
 
-print "\nhay %d numeros primos entre %d y %d" % (num, inicial, final)
+print "\nhay %d numeros primos entre %d y %d" % (cuantos, inicial, final)
