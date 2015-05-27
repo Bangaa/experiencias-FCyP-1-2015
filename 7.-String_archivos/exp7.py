@@ -31,7 +31,7 @@ def transcribeMenu(inputName, outputName):
 # BLOQUE PRINCIPAL
 
 nombreEntrada = "menu.txt"
-nombreSalida = "MenuNuevo.txt"
+nombreSalida = "menu_corregido.txt"
 
 # EJECUCION
 
