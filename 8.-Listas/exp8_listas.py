@@ -51,10 +51,10 @@ def invertirLista(lista):
 # Entrada: Lista de numeros
 # Salida: Nada. Imprime la lista de numeros separados por coma
 def imprimirLista(lista):
-    text = "%.f" % lista[0]
+    text = "%d" % lista[0]
 
     for elem in lista[1:]:
-        text += ", %.f" % elem
+        text += ", %d" % elem
 
     print text
 
