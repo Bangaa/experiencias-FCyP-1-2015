@@ -26,25 +26,30 @@ def crearLista(n):
 
 # Función que eleva al cubo cada elemento de una lista
 # Entrada: Una lista de numeros
-# Salida: Nada. Solo eleva cada elemento de la lista de entrada al cubo
+# Salida: Una nueva lista con todos los elementos de la primera, pero elevados 
+# al cubo
 def elevarAlCubo(lista):
-    i = 0
-    while i < len(lista):
-        elem = lista[i]
-        lista[i] = pow(elem, 3)
-        i += 1 
+    result = []
+
+    for num in lista:
+        elem = pow(num,3)    # se eleva el numero al cubo
+        result.append(elem)  # se agrega el elemento a la lista
+
+    return result
 
 # Función que invierte los elementos de una lista
-# Entrada: Una lista
-# Salida: Nada. Solo invierte la lista
+# Entrada: Una lista cualquiera.
+# Salida: Una copia de la lista original, pero invertida.
 def invertirLista(lista):
-    i = 0
-    while i < len(lista)/2:
-        piv = lista[i]
-        j = -(i+1)
-        lista[i] = lista[j]
-        lista[j] = piv
-        i += 1
+    result = []
+    i = -1
+
+    while i >= -len(lista):
+        elem = lista[i]
+        result.append(elem)
+        i -= 1
+
+    return result
 
 
 # Función que imprime los elementos de una lista en una sola línea
