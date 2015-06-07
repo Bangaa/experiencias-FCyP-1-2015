@@ -1,5 +1,44 @@
 # Experiencia 8: Listas
 
+## Enunciado
+
+Se tenía un programa que entregaba una lista con los cubos de los números 
+naturales entre un número dado y 1 en orden decreciente a partir de un único 
+valor n que ingresara un usuario.  El programador que había escrito este 
+programa olvidó guardar el programa y perdió todo el código que había escrito, 
+sin embargo, en una versión anterior, pensando su solución antes de 
+implementarla, había dejado los comentarios de las operaciones que iba a 
+realizar. A partir de este código, reconstruye el código que el programador 
+perdió, considerando que:
+
+*   Se requiere que se reconstituyan cada una de las funciones de acuerdo a las 
+    originales (es decir, cada función debe realizar la tarea asignada y sólo la 
+    tarea asignada en los comentarios).
+*   Se requiere además la reconstitución del bloque principal del programa.
+*   Se debe guardar la estructura del programa que el programador tenía 
+    originalmente (es decir, los bloques de entrada, salida y definición de 
+    funciones deben estar de acuerdo a los comentarios).
+
+*   El procesamiento que el programa realiza es el siguiente:
+    1.  El programa recibe una entrada n y valida que sea un número natural 
+        mayor que 0, si no lo es, vuelve a preguntar. Por ejemplo: 5
+    2.  Con la entrada validada se crea una lista con los elementos entre 1 y n 
+        utilizando una función `crearLista(*)`.  
+        Por ejemplo: `[1, 2, 3, 4, 5]`
+    3.  Luego la función `elevarAlCubo(*)` recibe el listado para elevar cada 
+        uno de los elemento de la lista al cubo.  
+        Por ejemplo: `[1, 8, 27, 64, 125]`
+    4.  Una última función invierte el orden de los elementos de la lista 
+        `invertirLista(*)`.  
+        Por ejemplo: `[125, 64, 27, 8, 1]`
+    5.  Finalmente se entrega el resultado impreso por pantalla al usuario con 
+        `imprimirLista(*)`.  
+        Por ejemplo: `125, 64, 27, 8, 1`
+
+*   Se prohíbe usar la función `reverse()` de Python para invertir la lista
+
+
+
 ## Operaciones sobre listas
 
 ### Acceso a los elementos
