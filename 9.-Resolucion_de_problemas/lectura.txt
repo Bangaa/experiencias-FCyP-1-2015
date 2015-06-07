@@ -1,0 +1,5 @@
+1. Hola. Este es un texto de prueba
+2. Funciona directamente buscando una palabra de prueba
+3. La palabra puede estar en más de una línea
+4. Pero como esto es una prueba
+5. El texto no debe ser muy largo
