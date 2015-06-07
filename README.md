@@ -14,4 +14,6 @@ Las experiencias que se incluyen, por ahora, son:
 * 5.- Recursión
 * 6.- Iteración
 * 7.- Strings y archivos
-* 8.- Listas
+* 8.- Listas (version antigua no disponible en usachvirtual)
+* 8.- Archivos (version 2015)
+* 9.- Ejercitacion archivos
