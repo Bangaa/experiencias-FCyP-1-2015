@@ -72,13 +72,13 @@ def archivoAMatrix(filename):
         lista = []
         palabra = ""
 
-        for letra in linea:
-            if letra not in separadores:
-                palabra += letra
+        for char in linea:
+            if char not in separadores: # si el caracter no es un separador
+                palabra += char
 
-            else:
-                lista.append(palabra)
-                palabra = ""
+            else:   # si el caracter es un separador
+                lista.append(palabra)   # se añade lo que tengo
+                palabra = ""            # se "resetea" la palabra
         
         lista = listaSinVacios(lista) 
         matrix.append(lista) 
