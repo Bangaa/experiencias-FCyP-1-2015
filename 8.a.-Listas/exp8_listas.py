@@ -11,11 +11,6 @@
 # FUNCIONES
 #
 
-    # IMPORTACIÓN DE FUNCIONES
-# Desde el módulo math importo la función para elevar al cubo
-# from math import pow (?)
-
-
     # DEFINICIÓN DE FUNCIONES
 
 # Función que crea una lista con los elementos de uno a un número natural dado
@@ -26,8 +21,8 @@ def crearLista(n):
 
 # Función que eleva al cubo cada elemento de una lista
 # Entrada: Una lista de numeros
-# Salida: Una nueva lista con todos los elementos de la primera, pero elevados
-# al cubo
+# Salida: Una nueva lista con todos los elementos de la lista de entrada, pero 
+# elevados al cubo
 def elevarAlCubo(lista):
     result = []
 
