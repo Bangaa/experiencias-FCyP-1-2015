@@ -42,20 +42,37 @@ def entregarPrimosEntre(x, y):
 
     return cuantos
 
+# Funcion que pide un número natural al usuario
+#
+# @param prompt Texto que se le muestra al usuario antes de esperar la entrada 
+# por teclado.  
+#
+# @return La entrada que ingresa el usuario que cumple con todas las 
+# condiciones
+def input_v(prompt):
+    inp = input(prompt)
+    while not esNatural(inp):
+        print "\nEntrada errónea. Solo números naturales" 
+        inp = input(prompt)
+
+    return inp
+
+# Funcion que dice si un numero es natural o no.
+# Entrada: Un numero
+# Salida: True si el numero es natural, y False en caso contrario
+def esNatural(num):
+    if num > 0 and int(num) == num:
+        return True
+
+    else:
+        return False
+
 ####################
 # BLOQUE PRINCIPAL
 ####################
 
-inicial = input("Dime un numero  : ")
-while inicial < 1:
-    print "\nEntrada erronea"
-    inicial = input("Dime un numero  : ")
-
-final = input("Dime otro numero: ")
-while final < 1:
-    print "\nEntrada erronea"
-    final = input("Dime otro numero: ")
-
+inicial = input_v("Dime un numero  : ")
+final = input_v("Dime otro numero: ") 
 
 cuantos = entregarPrimosEntre(inicial, final)
 
