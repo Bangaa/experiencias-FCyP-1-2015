@@ -2,6 +2,11 @@
 # -*- coding: utf-8 -*-
 
 
+##
+# Me dice cuantos cigarros puedo hacer dada una cantidad inicial de colillas
+# Entrada: Colillas iniciales
+# Salida: Cantidad de cigarros que puedo hacer en total, dada la cantidad de 
+# colillas iniciales.
 def cuantosCigarros(n):
     sobran = n % 5
     cuantos = n/5
@@ -11,6 +16,12 @@ def cuantosCigarros(n):
 
     return cuantos
 
+##
+# Me dice la cantidad de colillas restantes luego de que no pueda hacer mas 
+# cigarros. Note que siempre la cantidad de colillas sobrantes es menor que 5, 
+# pues si es mayor o igual a 5 entonces puedo hacer un nuevo cigarro.
+# Entrada: Cantidad de colillas iniciales
+# Salida: Cantidad de colillas sobrantes.
 def cuantosSobran(ncolillas):
     sobran = ncolillas % 5
     cigarros = ncolillas / 5
