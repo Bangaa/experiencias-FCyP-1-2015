@@ -23,12 +23,12 @@ def esPrimo(num):
     return esprimo
 
 ##
-# Muestra los numeros primos entre 2 numeros
+# Dice cuantos numeros primos existen entre 2 numeros
 #
 # @param x  Primer numero
 # @param y  Segundo numero
 # @return La cantidad de numeros primos entre x e y
-def entregarPrimosEntre(x, y):
+def contarPrimosEntre(x, y):
     cuantos = 0
     menor = x if x < y else y
     mayor = y if y > x else x
@@ -74,6 +74,6 @@ def esNatural(num):
 inicial = input_v("Dime un numero  : ")
 final = input_v("Dime otro numero: ") 
 
-cuantos = entregarPrimosEntre(inicial, final)
+cuantos = contarPrimosEntre(inicial, final)
 
 print "\nhay %d numeros primos entre %d y %d" % (cuantos, inicial, final)
