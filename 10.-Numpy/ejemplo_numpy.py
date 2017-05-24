@@ -44,7 +44,7 @@ def leerMatriz(nombreArchivo):
 # Entrada: Ambas matrices que se quieren multiplicar. El orden es importante ya 
 # que el producto interno no es conmutativo.
 #
-# Salida: El producto interno de matA y matB
+# Salida: True si se pueden multiplicar y False en caso contrario.
 def multiplicables(matA, matB):
 
     if matA.shape[1] == matB.shape[0]:
