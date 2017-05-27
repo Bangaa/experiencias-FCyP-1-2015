@@ -81,8 +81,7 @@ def escribirMatriz(numpymat, nombreArchivo):
 # linea incluidos.
 def ndarrayToStr(numpymat):
     if not type(numpymat) == numpy.ndarray:
-        raise TypeError("El argumento de ndarrayToStr() debe ser de tipo 
-        numpymat.ndarray no de tipo " + type(numpymat)) 
+        raise TypeError("El argumento de ndarrayToStr() debe ser de tipo numpymat.ndarray no de tipo " + type(numpymat)) 
 
     matriz = numpymat.tolist()
     strrep = ""
