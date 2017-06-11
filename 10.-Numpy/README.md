@@ -21,7 +21,7 @@ diagrama a continuación. No es absolutamente necesario escribir el diagrama en
 papel, pero es algo que **TIENEN** que hacer aunque sea en sus mentes antes de 
 empezar a escribir siquiera una línea de código.
 
-![Diagrama procesos](https://github.com/Bangaa/experiencias-FCyP-1-2015/raw/master/diagram.png)
+![Diagrama procesos](https://github.com/Bangaa/experiencias-FCyP-1-2015/raw/numpy/10.-Numpy/diagram.png)
 
 ## Tutorial rápido
 
