@@ -36,7 +36,7 @@ def leerMatriz(nombreArchivo):
 
     archivo.close()
 
-    return numpy.array(matriz, dtype='int32')
+    return numpy.array(matriz, dtype='int')
 
 ##
 # Indica si el producto interno de matA y matB (en ese orden) es posible.
